@@ -18,11 +18,7 @@
  * 
  */
 
-#if TARGET_OS_IPHONE
 #import "NXOAuth2.h"
-#else
-#import <OAuth2Client/NXOAuth2.h>
-#endif
 
 #import "SCAccount.h"
 #import "SCAccount+Private.h"
